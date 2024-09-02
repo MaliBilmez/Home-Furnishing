@@ -79,6 +79,7 @@ div > select{
     margin: 0 0 0 20px;
     display: flex;
     justify-content: space-between;
+    border-radius: 5px;
 }
 
 .search-input input{
@@ -86,6 +87,8 @@ div > select{
     width: 220px;
     padding: 10px;
     height: 100%;
+    border: none;
+    border-radius: 5px;
 
 }
 
@@ -94,7 +97,10 @@ div > select{
 }
 
 .search-input img{
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
 }
 
 .support{
@@ -110,3 +116,77 @@ div > select{
 .support-text{
     font-size: 13px;
 }
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Judson", serif;
+    gap: 50px;
+    margin: 16px 0 0 64px;
+    padding: 10px 50px;
+}
+
+.list-select{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    width: 310px;
+    height: 40px;
+    border: 1px solid #a2a1a1a7;
+    background-color: #d9d9d9;
+    gap: 10px;
+    /* padding: 1rem; */
+}
+
+.list-select > img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.list-select > p{
+    flex-grow: 5;
+    font-style: italic;
+}
+
+.list-text{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+}
+
+.header{
+    margin-top: 20px;
+    background-image: url(./images/stock.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.essential{
+    background-color: #d5dee5;
+    height: 300px;
+    width: 800px;
+    display: flex;
+    font-family: "Judson", serif;
+    font-size: 2rem;
+}
+
+.essential p{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   letter-spacing: 0.3px;
+   font-style: italic;
+}
+
+.essential img{
+    
+}
+
+header > img{
+    width: 400px;
+    height: 300px;
+}
+
